@@ -1,0 +1,42 @@
+.{
+    .name = "rcl",
+    .version = "9.2.3",
+    .dependencies = .{
+        .rcl = .{
+            .url = "https://github.com/ros2/rcl/archive/tags/9.2.3.tar.gz", // Jazzy
+            .hash = "122088479ee61f9f62d890936c8fe3117b6afb335aaab9291666285b1e3e569a3ade",
+        },
+        .libyaml = .{
+            .url = "https://github.com/zig-robotics/libyaml/archive/902afde41bcdb4998fdc85c44e937626c3109f4d.tar.gz",
+            .hash = "1220ec1d909d68c5d18ae54cfe6a6ffdfa6d08c965bdc44863e70085d7cad9addd0d",
+        },
+        .rcutils = .{
+            .url = "https://github.com/zig-robotics/rcutils/archive/647dad504b790580206f90f57a07e62c2701319a.tar.gz",
+            .hash = "122037f70bcd7974dd0cdcb5a7b58e49053214635d77aa8a7e4aa0c5a533e12b12cf",
+        },
+        .rmw = .{
+            .url = "https://github.com/zig-robotics/rmw/archive/793e24a20bde00943ecb3abd4b722b19d80c2dc5.tar.gz",
+            .hash = "1220ae7ebf01f9b589bc7d9d579226a9718a0d822ea63bd5c6e226749ba2cc6e2f95",
+        },
+        .rosidl = .{
+            .url = "https://github.com/zig-robotics/rosidl/archive/8d3c1cadd0dcfb806a8c604d06b3575b8d3c46d1.tar.gz",
+            .hash = "1220e9e15c4ab436293a25de4cd719415359f8f69aa8e9c80b9637a088c2070883a3",
+        },
+        .rcl_logging = .{
+            .url = "https://github.com/zig-robotics/rcl_logging/archive/6e0c1cf42adda4cf5fe6397c4fc24fb6b1ca540a.tar.gz",
+            .hash = "12201f4813a0b0c68e461f8774c886ed9bb581147f6753fee8ec4ce92c92b860f592",
+        },
+        .rcl_interfaces = .{
+            .url = "https://github.com/zig-robotics/rcl_interfaces/archive/c71e41d426e57bc1c053b856a55aa75aa9c5d919.tar.gz",
+            .hash = "12206d0c139a739b50ec2bd7d8156f8475b76e345e9afdbf058c16897b0f894a6413",
+        },
+        .ros2_tracing = .{
+            .url = "https://github.com/zig-robotics/ros2_tracing/archive/186b1edc8f72c4da1fee1c2e4f07d918516d759e.tar.gz",
+            .hash = "122052a59a492f180b1dde6a5dc365c3369538f2511aa75fa7c7364b75b27e97584d",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
