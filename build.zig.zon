@@ -7,28 +7,28 @@
             .hash = "122088479ee61f9f62d890936c8fe3117b6afb335aaab9291666285b1e3e569a3ade",
         },
         .libyaml = .{
-            .url = "https://github.com/zig-robotics/libyaml/archive/902afde41bcdb4998fdc85c44e937626c3109f4d.tar.gz",
-            .hash = "1220ec1d909d68c5d18ae54cfe6a6ffdfa6d08c965bdc44863e70085d7cad9addd0d",
+            .url = "https://github.com/zig-robotics/libyaml/archive/91cee9426c3de4c6d14bb3366d67e6b9fe0b10c6.tar.gz",
+            .hash = "1220741afd16b9a4cb4e16880fa25034cee185dfbc67f94d99a2f12e423d52c2cea4",
         },
         .rcutils = .{
-            .url = "https://github.com/zig-robotics/rcutils/archive/cb065d9762803c455a7b7a5d03ec5879f62094c7.tar.gz",
-            .hash = "1220a1e8aa8f748b7ccf04fa2c3e63897bb8884122b717f2fad2e6902c746eb83cf4",
+            .url = "https://github.com/zig-robotics/rcutils/archive/11f322f8cda5fd94e8cb13d6ba11e12f2b0b9b54.tar.gz",
+            .hash = "12201cd3c0d93eb979cda167fd019ccc7a9a2a4aac69db5aebe688ec6a6f304d9471",
         },
         .rmw = .{
-            .url = "https://github.com/zig-robotics/rmw/archive/793e24a20bde00943ecb3abd4b722b19d80c2dc5.tar.gz",
-            .hash = "1220ae7ebf01f9b589bc7d9d579226a9718a0d822ea63bd5c6e226749ba2cc6e2f95",
+            .url = "https://github.com/zig-robotics/rmw/archive/a13d91e07207366254e5365841b81d61926c115b.tar.gz",
+            .hash = "122033794261cc2fd04d77925adfcbfc93ef8dc34bafaf4f08cab69ff60366f7f74b",
         },
         .rosidl = .{
-            .url = "https://github.com/zig-robotics/rosidl/archive/8d3c1cadd0dcfb806a8c604d06b3575b8d3c46d1.tar.gz",
-            .hash = "1220e9e15c4ab436293a25de4cd719415359f8f69aa8e9c80b9637a088c2070883a3",
+            .url = "https://github.com/zig-robotics/rosidl/archive/bd2c9989e84097804e8219c1086656b7822fd038.tar.gz",
+            .hash = "12202020e4e77eaa3edc2206b411005aeef0d393481a653bb509484fb76301553ab3",
         },
         .rcl_logging = .{
-            .url = "https://github.com/zig-robotics/rcl_logging/archive/6e0c1cf42adda4cf5fe6397c4fc24fb6b1ca540a.tar.gz",
-            .hash = "12201f4813a0b0c68e461f8774c886ed9bb581147f6753fee8ec4ce92c92b860f592",
+            .url = "https://github.com/zig-robotics/rcl_logging/archive/1e97b20d8cb6f42e1c2f58ac7ba306817610996a.tar.gz",
+            .hash = "122000f4258b7d1260359370bb2ce64710e0ff580f64c700843416d679fb759dffe7",
         },
         .rcl_interfaces = .{
-            .url = "https://github.com/zig-robotics/rcl_interfaces/archive/c71e41d426e57bc1c053b856a55aa75aa9c5d919.tar.gz",
-            .hash = "12206d0c139a739b50ec2bd7d8156f8475b76e345e9afdbf058c16897b0f894a6413",
+            .url = "https://github.com/zig-robotics/rcl_interfaces/archive/dc93ae80936c36a598c7b8735da54db6bf76feff.tar.gz",
+            .hash = "12209967568a4e7dc36390bb76ef15b89b8c7bc2c2029dd91d32681611c03e098e5d",
         },
         .ros2_tracing = .{
             .url = "https://github.com/zig-robotics/ros2_tracing/archive/186b1edc8f72c4da1fee1c2e4f07d918516d759e.tar.gz",
